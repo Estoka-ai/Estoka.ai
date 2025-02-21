@@ -11,6 +11,7 @@ import { AIAssistant } from './components/AIAssistant';
 import { Integrations } from './components/Integrations';
 import { Customers } from './components/Customers';
 import { Marketing } from './components/Marketing';
+import { Financas } from './components/Financial';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('/');
@@ -37,6 +38,8 @@ function App() {
         return <Customers />;
       case '/marketing':
         return <Marketing />;
+      case '/financas':
+        return <Financas />;
       default:
         return <Dashboard />;
     }

@@ -1,17 +1,18 @@
 import React from 'react';
-import { LayoutDashboard, Package, ShoppingCart, Truck as TruckDelivery, BarChart, Settings, Bot, Link2, Users, Megaphone, Sun, Moon } from 'lucide-react';
+import { LayoutDashboard, Package, ShoppingCart, Truck as TruckDelivery, BarChart, Settings, Bot, Link2, Users, Megaphone, Sun, Moon, DollarSign } from 'lucide-react';
 
 const menuItems = [
   { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
   { icon: Package, label: 'Estoque', path: '/inventory' },
   { icon: ShoppingCart, label: 'Pedidos', path: '/orders' },
   { icon: Users, label: 'Clientes', path: '/customers' },
+  { icon: DollarSign, label: 'Finanças', path: '/financas' },
   { icon: TruckDelivery, label: 'Logística', path: '/logistics' },
   { icon: Bot, label: 'Assistente IA', path: '/ai-assistant' },
   { icon: Link2, label: 'Integrações', path: '/integrations' },
   { icon: Megaphone, label: 'Marketing', path: '/marketing' },
   { icon: BarChart, label: 'Relatórios', path: '/reports' },
-  { icon: Settings, label: 'Configurações', path: '/settings' },
+  { icon: Settings, label: 'Configurações', path: '/settings' },  
 ];
 
 interface SidebarProps {
