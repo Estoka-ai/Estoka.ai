@@ -34,7 +34,7 @@ export function Sidebar({ onNavigate }: SidebarProps) {
     <div className="w-64 bg-white dark:bg-gray-800 h-screen shadow-lg">
       <div className="p-6 flex justify-between items-center">
         <img 
-          src="https://cdn.shopify.com/s/files/1/0897/0112/2411/files/logoo.png?v=1740095444" 
+          src="https://cdn.shopify.com/s/files/1/0897/0112/2411/files/semf.png?v=1740430455" 
           alt="Estoka.AI Logo" 
           className="h-8 w-24 object-contain"
         />
